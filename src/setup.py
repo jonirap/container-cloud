@@ -7,9 +7,10 @@ with open("requirements.txt", "r") as fh:
     requirements = fh.read()
 
 setuptools.setup(
-    name="vscode-python-centos-container-development-boilerplate",
+    name="container-cloud",
+    author='jonirap',
     version="0.0.1",
-    description="Develop python applications with vscode on remote containers",
+    description="Run containers on a cloud environment",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),

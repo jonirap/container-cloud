@@ -4,9 +4,9 @@ with open("test_requirements.txt", "r") as fh:
     requirements = fh.read()
 
 setuptools.setup(
-    name="vscode-python-centos-container-development-boilerplate",
+    name="test-container-cloud",
     version="0.0.1",
-    description="Develop python applications with vscode on remote containers",
+    description="Test the container cloud runtime",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
